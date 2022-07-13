@@ -10,5 +10,6 @@ class ApiService {
     } catch (e) {
       print("Error :$e");
     }
+    return null;
   }
 }

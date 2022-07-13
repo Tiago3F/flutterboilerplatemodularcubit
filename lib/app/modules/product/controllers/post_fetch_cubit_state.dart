@@ -1,6 +1,5 @@
 part of 'post_fetch_cubit.dart';
 
-@immutable
 abstract class PostFetchCubitState extends Equatable {
   const PostFetchCubitState();
   @override

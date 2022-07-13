@@ -16,7 +16,7 @@ class ProductModule extends Module {
         ChildRoute('/', child: (_, __) =>  ProductPage(apiService: ApiService()), children: [
           ChildRoute(
             '/red',
-            child: (_, __) => MyWidget(),
+            child: (_, __) => const MyWidget(),
             transition: TransitionType.noTransition,
           ),
           ChildRoute(

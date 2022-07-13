@@ -15,8 +15,8 @@ class ProductModel {
     required String name,
   }) {
     return ProductModel(
-      id: id ?? this.id,
-      name: name ?? this.name,
+      id: id,
+      name: name,
     );
   }
 
