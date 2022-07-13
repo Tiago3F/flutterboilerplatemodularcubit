@@ -28,10 +28,12 @@ class _HomePageState extends State<HomePage> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           FloatingActionButton(
+            heroTag: 'btn1',
             onPressed: _counterCubit.decrement,
             child: const Icon(Icons.remove),
           ),
           FloatingActionButton(
+            heroTag: 'btn2',
             onPressed: _counterCubit.increment,
             child: const Icon(Icons.add),
           ),

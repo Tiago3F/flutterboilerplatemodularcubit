@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class ListProductPage extends StatelessWidget {
-  final String id;
-  const ListProductPage({Key? key, required this.id}) : super(key: key);
+  final String? id;
+  const ListProductPage({Key? key, this.id}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
